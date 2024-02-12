@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="PolyDeck.UserControls.DevicesDataGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PolyDeck.UserControls"
+             xmlns:polydeck="clr-namespace:PolyDeck"
+             xmlns:model="clr-namespace:PolyDeckModel;assembly=PolyDeckModel"
+             xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:core="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Margin="20,20,20,20">
+    <UserControl.Resources>
+        <polydeck:DevicesGPIOView x:Key="devicesgpioview"/>
+        <CollectionViewSource x:Key="cvsDevicesGPIO" Source="{StaticResource devicesgpioview}">
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="Device"/>
+            </CollectionViewSource.GroupDescriptions>
+        </CollectionViewSource>
+        <local:GroupNameConverter x:Key="converter"/>
+
+
+    </UserControl.Resources>
+    <UserControl.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid x:Name="DataGrid" ItemsSource="{Binding Source={StaticResource cvsDevicesGPIO}}" AutoGenerateColumns="False" Grid.Column="0" CanUserAddRows="False" SelectionMode="Single" PreparingCellForEdit="DataGrid_PreparingCellForEdit">
+                <DataGrid.GroupStyle>
+                    <!-- Style for groups at top level. -->
+                    <GroupStyle>
+                        <GroupStyle.ContainerStyle>
+                            <Style TargetType="{x:Type GroupItem}">
+                                <Setter Property="Margin" Value="0,0,0,5"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type GroupItem}">
+                                            <Expander IsExpanded="True" Foreground="Black" BorderThickness="1,1,1,5">
+                                                <Expander.Header>
+                                                    <DockPanel>
+                                                        <TextBlock Text="{Binding Path=Name, Converter={StaticResource converter}}" FontWeight="Bold" Foreground="White" Margin="5,0,0,0" Width="auto"/>
+                                                        <TextBlock FontWeight="Bold"  Foreground="White" Text="{Binding Path=ItemCount}"/>
+                                                    </DockPanel>
+                                                </Expander.Header>
+                                                <Expander.Content>
+                                                    <ItemsPresenter />
+                                                </Expander.Content>
+                                            </Expander>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </GroupStyle.ContainerStyle>
+                    </GroupStyle>
+                </DataGrid.GroupStyle>
+                <DataGrid.Columns>
+                    <controls:DataGridNumericUpDownColumn Header="Pin"
+                                          Binding="{Binding Pin}"
+                                          Minimum="0" CanUserSort="False" MinWidth="100" />
+                    <DataGridTextColumn Header="Logo path" Binding="{Binding LogoPath}" CanUserSort="False" MinWidth="200" />
+                    <DataGridTextColumn x:Name="DGCOL_Shortcuts" Header="Shortcuts" Binding="{Binding ShortcutsString}" CanUserSort="False" IsReadOnly="False" MinWidth="200"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Grid.Column="1">
+                <Button x:Name="btn_AddGPIO" Content="Add GPIO" Margin="10,30,-1,0" Click="btn_AddGPIO_Click" />
+                <Button x:Name="btn_RenameDevice" Content="Rename device" Margin="10,10,-1,0" Click="btn_RenameDevice_Click" />
+                <Button x:Name="BTN_Save" Content="Save" Margin="10,10,0,0" Click="BTN_Save_Click" />
+            </StackPanel>
+            <StackPanel Grid.Column="1"/>
+        </Grid>
+    </UserControl.Content>
+</UserControl>

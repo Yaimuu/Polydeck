@@ -1,0 +1,25 @@
+﻿<Window x:Class="PolyDeck.AddGPIO"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PolyDeck" 
+        mc:Ignorable="d"
+        Title="Add GPIO" Height="210" MinHeight="210" MaxHeight="210" Width="460" MinWidth="460" MaxWidth="460">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Select a device" Margin="20,10,0,10" FontSize="24" FontFamily="Segoe UI Semibold"/>
+        <ComboBox x:Name="ComboBox" Width="400" Grid.Row="1"
+            SelectedIndex="0" Height="30"
+            ItemsSource="{Binding}"
+            DisplayMemberPath="Name" Margin="20,10,20,10"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,20,10">
+            <Button x:Name="btn_Ok" Content="Ok" Height="20" Width="70" HorizontalAlignment="Right" Margin="0,0,10,0" Click="btn_Ok_Click"/>
+            <Button x:Name="btn_Cancel" Content="Cancel" Height="20" Width="70" HorizontalAlignment="Right" Click="btn_Cancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

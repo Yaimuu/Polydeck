@@ -1,0 +1,12 @@
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\bin\Debug\net7.0\PolyDeckModel.deps.json
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\bin\Debug\net7.0\PolyDeckModel.dll
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\bin\Debug\net7.0\PolyDeckModel.pdb
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\PolyDeckModel.csproj.AssemblyReference.cache
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\PolyDeckModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\PolyDeckModel.AssemblyInfoInputs.cache
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\PolyDeckModel.AssemblyInfo.cs
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\PolyDeckModel.csproj.CoreCompileInputs.cache
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\PolyDeckModel.dll
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\refint\PolyDeckModel.dll
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\PolyDeckModel.pdb
+D:\Sugar\Documents\Polytech\Cours\S9\Systeme embarques\Projet\iot-yanis-quentin\PolyDeckModel\obj\Debug\net7.0\ref\PolyDeckModel.dll

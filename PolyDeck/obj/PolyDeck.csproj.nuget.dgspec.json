@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeck\\PolyDeck.csproj": {}
+  },
+  "projects": {
+    "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeckModel\\PolyDeckModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeckModel\\PolyDeckModel.csproj",
+        "projectName": "PolyDeckModel",
+        "projectPath": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeckModel\\PolyDeckModel.csproj",
+        "packagesPath": "C:\\Users\\Sugar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeckModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sugar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeck\\PolyDeck.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeck\\PolyDeck.csproj",
+        "projectName": "PolyDeck",
+        "projectPath": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeck\\PolyDeck.csproj",
+        "packagesPath": "C:\\Users\\Sugar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeck\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sugar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeckModel\\PolyDeckModel.csproj": {
+                "projectPath": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeckModel\\PolyDeckModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.3.1, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "WpfAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "XAMLTools.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha0143, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

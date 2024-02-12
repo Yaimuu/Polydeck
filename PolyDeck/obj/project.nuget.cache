@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "iWGXb4WMMOwVVKTtGLhuxNG2OeM7iX+QOzu+APqJYaGTtd/xxgmvOEs2sKDL9zMmjMqzf7gUx/lDFdRhQCQMMg==",
+  "success": true,
+  "projectFilePath": "D:\\Sugar\\Documents\\Polytech\\Cours\\S9\\Systeme embarques\\Projet\\iot-yanis-quentin\\PolyDeck\\PolyDeck.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sugar\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\jetbrains.annotations\\2022.3.1\\jetbrains.annotations.2022.3.1.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\wpfanalyzers\\4.1.1\\wpfanalyzers.4.1.1.nupkg.sha512",
+    "C:\\Users\\Sugar\\.nuget\\packages\\xamltools.msbuild\\1.0.0-alpha0143\\xamltools.msbuild.1.0.0-alpha0143.nupkg.sha512"
+  ],
+  "logs": []
+}
